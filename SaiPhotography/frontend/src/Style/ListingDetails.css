@@ -1,0 +1,97 @@
+.listing-details {
+  padding: 40px 130px 120px;
+
+  /* Media Queries */
+  @media screen and (max-width: 1200px) {
+    padding: 40px 80px 120px;
+  }
+
+  @media screen and (max-width: 992px) {
+    padding: 40px 50px 120px;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding: 40px 20px 120px;
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+    /* Media Query */
+    @media screen and (max-width: 576px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+
+    h1 {
+      /* Media Query */
+      @media screen and (max-width: 576px) {
+        font-size: 260px;
+      }
+    }
+
+    .save {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+
+      p {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0;
+      }
+    }
+  }
+
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+
+    img {
+      max-width: 280px;
+    }
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+
+  .booking {
+    display: flex;
+    justify-content: space-between;
+
+    /* Media Query */
+    @media screen and (max-width: 992px) {
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .date-range-calendar {
+      margin: 30px 0;
+
+      h2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.pay_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  /* Media Query */
+  @media screen and (max-width: 576px) {
+    padding: 10px 20px 120px;
+  }
+}

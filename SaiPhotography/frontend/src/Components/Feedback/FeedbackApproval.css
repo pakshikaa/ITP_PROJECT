@@ -1,0 +1,64 @@
+/* accept and reject btn styles in table */
+.accept_btn {
+  background: rgb(232, 153, 43) !important;
+  border: 1px solid white !important;
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  padding: 0.3rem !important;
+  color: var(--text-color);
+  font-size: 1rem;
+  width: 100px;
+  text-transform: capitalize;
+}
+
+.reject_btn {
+  background: rgb(202, 191, 182) !important;
+  border: 1px solid white !important;
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  padding: 0.3rem !important;
+  color: var(--text-color);
+  font-size: 1rem;
+  text-transform: capitalize;
+  width: 100px;
+}
+
+.accept_btn:hover,
+.reject_btn:hover {
+  background: rgb(255, 255, 255) !important;
+  color: #000000 !important;
+  border: 1px solid black !important;
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  padding: 0.3rem !important;
+}
+
+#btn_position {
+  width: 300px;
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}
+
+#inst_btn_position {
+  width: 300px;
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}
+
+.Buttonsdiv {
+  display: flex;
+  justify-content: center; /* Align buttons horizontally */
+  margin-bottom: 20px; /* Add some spacing below buttons */
+}
+
+thead,
+th {
+  text-align: center;
+  border: 1px solid rgb(111, 110, 110);
+  font-size: 1.2rem;
+  padding: 10px 2px;
+}
+
+td {
+  text-align: center;
+}

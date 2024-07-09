@@ -1,0 +1,132 @@
+
+
+.feedback-container {
+  background-size: cover;
+  background-position: center;
+  filter: brightness(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures form fills viewport height */
+  padding: 20px;
+ 
+}
+
+.feedbacksection {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 10px; /* Rounded corners */
+  max-width: 600px; /* Limit form width on larger screens */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.title {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.feedback-inputs {
+    display: flex;
+    flex-direction: column;  /* Can be changed to row for two columns */
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.feedbackid {
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 50%;
+}
+
+.my-input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.my-input:focus {
+  border: 1px solid #5900ff;
+  color: #5900ff;
+}
+
+.user,
+.mail {
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.service-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out stars */
+  margin-bottom: 20px;
+}
+
+.service-rate {
+  color: white;
+  font-size: 16px;
+}
+
+.FillStar,
+.OutlineStar {
+  font-size: 25px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.FillStar {
+    color: #c89a11;
+}
+
+.serviceText {
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  resize: none; /* Prevent text area from resizing */
+  transition: all 0.3s ease;
+}
+
+.serviceText:focus {
+  border: 1px solid #5900ff;
+  color: #5900ff;
+  padding-left: 4px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.primary__btn {
+    background-color: #524333; /* Orange color from image */
+    color: #fff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ 
+}
+
+.primary__btn:hover {
+  background-color: #a093be;
+}
+.feedback-column {  /* New class for the second column */
+    flex: 1;  /* Makes the column take up equal space */
+  }

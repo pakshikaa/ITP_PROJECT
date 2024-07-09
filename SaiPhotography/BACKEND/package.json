@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "photography web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Dimalsha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "face-api.js": "^0.20.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.2",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "pdfkit": "^0.15.0",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

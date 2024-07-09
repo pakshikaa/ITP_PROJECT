@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* Album Card Styles */
+  .album-card {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .album-card h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .album-card p {
+    color: #666;
+  }
+  
+  .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .album-card img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
